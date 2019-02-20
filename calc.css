@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#button{
+  width: 50;
+  font-size: 50;
+  margin: 100;
+  cursor: pointer;
+}
+
+.textview{
+  width: 217;
+  margin: 5;
+  font-size: 25;
+  padding: 5;
+}
+
+.main{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+
+}
