@@ -19,7 +19,7 @@
       <br>
       <table>
         <tr>
-          <td><input class="button" type="button" value="C" onclick="clean()"></td>
+          <td style="width:100"><input class="button" type="button" value="C" onclick="clean()"></td>
           <td><input class="button" type="button" value="<" onclick="backspace()"></td>
           <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
           <td><input class="button" type="button" value="x" onclick="insert('*')"></td>
@@ -40,10 +40,10 @@
           <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
           <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
           <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
-          <td><input class="button" type="button" value="=" onclick="equal()"></td>
+          <td rowspan="2"><input class="button" type="button" value="=" onclick="equal()"></td>
         </tr>
         <tr>
-          <td><input class="button" type="button" value="0" onclick="insert(0)"></td>
+          <td colspan="2" style="width:200"><input class="button" style="width:100" type="button" value="0" onclick="insert(0)"></td>
           <td><input class="button" type="button" value="." onclick="insert('.')"></td>
         </tr>
       </table>
